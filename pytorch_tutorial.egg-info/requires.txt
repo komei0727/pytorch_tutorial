@@ -1,0 +1,7 @@
+torch
+torchvision
+pytorch-lightning
+tensorboard
+numpy
+matplotlib
+requests

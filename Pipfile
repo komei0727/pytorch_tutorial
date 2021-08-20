@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytorch_lightning_tutorial = {editable = true, path = "."}
+
+[dev-packages]
+flake8 = "*"
+pylint = "*"
+mypy = "*"
+ipykernel = "*"
+jupyterlab_widgets = "*"
+ipywidgets = "*"
+tox = "*"
+pytest = "*"
+pytest-timeout = "*"
+jupyterlab = "*"
+pytorch-tutorial = {editable = true, path = "."}
+
+[requires]
+python_version = "3.9"
